@@ -1,0 +1,7 @@
+
+1. The TWI describes the tendency of an area to accumulate water. 
+TWÌ= ln (SCA/ tan slope)
+2. Where the Specific Catchment Area describes the tendency to receive water and the slope angle and draining contour length describes the tendency to evacuate water. Assuming steady-stat conditions throughout the soil.
+
+
+
