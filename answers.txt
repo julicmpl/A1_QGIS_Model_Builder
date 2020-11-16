@@ -4,4 +4,25 @@ TWÌ= ln (SCA/ tan slope)
 2. Where the Specific Catchment Area describes the tendency to receive water and the slope angle and draining contour length describes the tendency to evacuate water. Assuming steady-stat conditions throughout the soil.
 
 
+FOSS GIS Tools to calculate TWI
+
+1. GRASS GIS
+1. r.topidx 
+2. r.watershed 
+3. r.terraflow
+
+2. QGIS Processing Toolbox
+SAGA/ Terrain Analysis - Hydology/ Topographic wetness index (One Step)
+Sink Removal/ Slope, Aspect, Curvature/ Flow Accumulation/ Flow Width and Specific Catchment Area/ Topographic Wetness Index (TWI)(Step-by-Step)
+
+
+3. R
+atb: raster Optional raster used as criteria for locating the channel. Typically the
+value of the topographic wetness index (TWI) determined from the elevations.
+Should be in a projected coordinate system (e.g UTM) and use a regular grid
+spacing.
+For the TWI to be meaningful this raster should have a resolution of a least
+30m. It can be calculated using the upslope.area method applied to the DEM
+and atb=TRUE. 
+
 
